@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#letter1 h1 {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#letter2 h1 {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#letter3 h1 {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+p {
+    padding: 10px 50px;
+}
+
+#letter1 {
+    height: 100vh;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#letter2 {
+    height: 100vh;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#letter3 {
+    height: 100vh;
+    background: green;
+
+}
+
+.strelka-top-2,
+.strelka-bottom-2 {
+    margin: 20px 8px;
+    width: 80px;
+    height: 80px;
+}
+
+.strelka-top-2 path,
+.strelka-bottom-2 path {
+    fill: #BFE2FF;
+    stroke-width: .6;
+    stroke: #337AB7;
+    transition: fill 0.5s ease-out;
+    cursor: pointer;
+}
+
+.strelka-top-2 {
+    transform: rotate(270deg);
+}
+
+.strelka-bottom-2 {
+    transform: rotate(90deg);
+}
+
+.strelka-top-2 path:hover,
+.strelka-bottom-2 path:hover {
+    fill: #337AB7;
+}
