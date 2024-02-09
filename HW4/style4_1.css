@@ -1,0 +1,165 @@
+body {
+    font-family: 'KoHo', sans-serif;
+    margin: 0;
+}
+
+/*---------------------------------------page1----------------------------------------------------*/
+
+.page1 {
+    background-image: url("img/fon1.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 40vh;
+    width: 35vw;
+    display: flex;
+    background-image: url("img/image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    height: 40vh;
+    width: 35vw;
+    background: #FAF9F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content p {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 44px 0;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    height: 20%;
+    font-family: 'KoHo', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*------------------------------------------page2-----------------------------------------------*/
+
+.page2 {
+    background-image: url("img/fon2.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 55vh;
+    width: 63vw;
+}
+
+.text p {
+    width: 63vw;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 110px 0 0 0;
+}
+
+/*------------------------------------page3-----------------------------------------------------*/
+
+.page3 {
+    background-image: url("img/fon2.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+}
+
+.box {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.card {
+    height: 70vh;
+    width: 30vw;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-mountains1 {
+    background-image: url("img/mountains1.jpg");
+}
+
+.img-mountains2 {
+    background-image: url("img/mountains2.jpg");
+}
+
+.img-mountains3 {
+    background-image: url("img/mountains3.jpg");
+}
+
+.img-mountains1,
+.img-mountains2,
+.img-mountains3 {
+    height: 30%;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+}
+
+.card button {
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 81%;
+    height: 11%;
+    font-family: 'KoHo', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card h1 {
+    font-size: 35px;
+    margin: 32px 0 24px 0;
+}
+
+.card p {
+    font-size: 35px;
+    margin: 0;
+}
+
+.card .lorem p {
+    margin-bottom: 62px;
+}
+
+.card .price p {
+    margin-bottom: 22px;
+}
