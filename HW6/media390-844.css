@@ -1,0 +1,27 @@
+/*-----------------------------------------iphone 12pro-----------------------------------*/
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    body {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 20vh;
+    }
+
+    .main {
+        grid-template-columns: 33.33vw 33.33vw 33.33vw;
+        grid-template-rows: 40vh 20vh;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        height: 20vh;
+        width: 100vw;
+    }
+}

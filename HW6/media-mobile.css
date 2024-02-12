@@ -1,0 +1,42 @@
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    * {
+        font-size: 0.9em;
+    }
+
+    nav > ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        height: 20vh;
+    }
+
+    ul > li {
+        width: 100vw;
+        height: 5vh;
+    }
+
+    header {
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    main div {
+        writing-mode: horizontal-tb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 8vh;
+    }
+
+    footer {
+        height: 5vh;
+    }
+}

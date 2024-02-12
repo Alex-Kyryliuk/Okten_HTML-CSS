@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    width: 100vw;
+    overflow: hidden;
+    color: white;
+    font-size: 3em;
+}
+
+header {
+    height: 30vh;
+    background-color: grey;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.article {
+    width: 70vw;
+    height: 70vh;
+    background-color: grey;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 30vw;
+    height: 70vh;
+    background-color: grey;
+    margin: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}

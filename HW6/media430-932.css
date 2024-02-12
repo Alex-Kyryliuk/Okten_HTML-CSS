@@ -1,0 +1,27 @@
+/*-----------------------------------------iphone 14pro max------------------------------*/
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    header {
+        height: 15vh;
+    }
+
+    .article {
+        height: 70vh;
+        width: 97.5%;
+        margin: 5px 5px 0 5px;
+    }
+
+    .box {
+        height: 15vh;
+        width: 97.5%;
+        margin: 5px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
